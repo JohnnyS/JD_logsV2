@@ -1,0 +1,76 @@
+{
+    "DefaultLogs": {
+        "GlobalBan":"**%s** Versuchte sich zu Verbinden ist aber Global gesperrt.\n**Ban UUID:** `%s`\n**Ban Grund:** `%s`",
+        "NameChange":"Player **%s** hieß zuvor **%s**",
+        "NameChangeChat":"%s hieß zuvor %s",
+        "Left": "**%s** hat den Server verlassen. (Grund: %s)",
+        "Join": "'**%s** verbindet sich mit dem Server.'",
+        "Shooting": "**%s** schiesst mit einer `%s` `x%s`",
+        "Explosion": "**%s** created a explosion `%s`",
+        "ResourceStop": "**%s** wurde gestoppt.",
+        "ResourceStart": "**%s** wurde gestartet."
+    },
+
+    "Commands":{
+        "Screenshot": {
+            "Log": "**Screenshot von:** %s (ID: %s)\n**Angefordert von:** %s (ID: %s)",
+            "Success": "Der Screenshot von %s wurde auf Discord gepostet!",
+            "InvalidId": "Die Spieler ID ist ungültig oder es ist kein aktiver Spieler.",
+            "InvalidPerms": "Du hast keine Berechtigung diesen Befehl zu verwenden!"
+        },
+        "LogHistory": {
+            "Success": "Letzte Logs für: %s (%s)",
+            "NoLogs": "Keine Logs verfügbar.",
+            "InvalidId": "Die Spieler ID ist ungültig oder es ist kein aktiver Spieler.",
+            "InvalidPerms": "Du hast keine Berechtigung diesen Befehl zu verwenden!"
+        }
+    },
+
+    "Other":{
+        "ForceSteamLog": "Unterbrach Verbindung von **%s** weil Steam nicht aktiv war.",
+        "ForceSteam": "Bitte Starte Steam und verbinde dich erneut.",
+        "NoSteamLog": "Spieler **%s** hat Steam nicht gestartet und wir können den namen nicht finden.",
+        "NoSteam": "Verbindet sich ohne SteamID."
+    },
+
+    "DeathReasons": {
+        "Suicide": "Beging Selbstmord",
+        "Died": "Starb",
+        "Murdered": "Ermordete",
+        "Torched": "Entzündete",
+        "Knifed": "Schlitzte",
+        "Pistoled": "Erschoss",
+        "Riddled": "Durchsiebte",
+        "Rifled": "Erschoss",
+        "MachineGunned": "Durchlöcherte",
+        "Pulverized": "Pulverisierte",
+        "Sniped": "Erschoss",
+        "Obliterated": "Vernichtete",
+        "Shredded": "Schredderte",
+        "Bombed": "Sprengte",
+        "MowedOver": "Mähte über",
+        "Flattened": "Überfuhr",
+        "Killed": "Tötete"
+    },
+
+    "WeaponFired": {
+        "Undefined": "Unbestimmt"
+    },
+
+    "AntiCheat": {
+        "ACConfigEditLog": "Player **%s** tried to use a modified config file.'",
+        "ACConfigEdit": "Du wurdest vom Server gekickt!",
+        "ACBlacklistedVehLog": "Spieler **%s** versuchte ein Blacklist Fahrzeug zu benutzen: `%s`",
+        "ACBlacklistedVehKick": "Du wurdest vom Server gekickt!\nBegründung: Versuchte mehrmals ein Blacklist Fahrzeug zu benutzen!.",
+        "BlacklistedObject": "Blacklisted gegenstand entfernt:`%s`",
+        "BlacklistedKey": "Blacklist Taste benutzt:`%s` (%s)'",
+        "BlacklistedCommand":"Blacklist Befehl erkannt:`%s`\nSpieler wurde vom Server gekickt.",
+        "BlacklistedCommandKick": "Du wurdest vom Server gekickt!"
+    },
+
+    "CommandSuggestions": {
+        "logs": "Zeige die Letzten 5 Log Einträge eines Spielers.",
+        "screenshot": "Mach ein Screenshot von dem was der Player gerade sieht.",
+        "playerIdSuggestion": "Die ID des Spielers."
+    }
+}

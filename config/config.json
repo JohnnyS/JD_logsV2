@@ -1,0 +1,57 @@
+{
+    "locals": "en",
+
+    "EnableAcFunctions": false,
+
+    "allLogs": false,
+    "postals": false,
+    "weaponLog": true,
+    "inlineField": true,
+
+    "playerId": true,
+    "steamId": true,
+    "steamUrl": true,
+    "discordId": true,
+    "license": true,
+    "license2": false,
+    "ip": true,
+    "playerPing": false,
+
+    "Session": true,
+    "PlayTime": false,
+    "playerHealth": false,
+    "playerArmor": false,
+    "timestamp": true,
+
+    "forceSteam": true,
+
+    "nameChangePerms": "jd.staff",
+    "logHistoryPerms": "jd.staff",
+    "screenshotPerms": "jd.staff",
+    "AntiCheatBypass": "jd.staff",
+
+    "DiscordUpdateNotify": false,
+
+    "userName": "Team Smoove",
+    "avatar": "https://imgur.com/HkbzXKi.png",
+    "communityName": "Team Smoove ",
+    "communityLogo": "https://imgur.com/HkbzXKi.png",
+    "footerText": "Team Smoove",
+    "footerIcon": "https://imgur.com/HkbzXKi.png",
+
+    "WeaponsNotLogged": [
+        "WEAPON_SNOWBALL",
+        "WEAPON_FIREEXTINGUISHER",
+        "WEAPON_PETROLCAN"
+    ],
+
+    "Commands": {
+        "logs": ["jdlogs", "jdlh"],
+        "screenshot": ["jdscreenshot", "jdss"]
+    },
+
+    "useESX": true,
+    "esxName": true,
+    "esxJob": true,
+    "esxMoney": true
+}

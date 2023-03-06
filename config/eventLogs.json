@@ -1,0 +1,14 @@
+{
+    "TemplateServerEvent": {
+        "Event": "EventNameHere",
+        "Message": "This is a placeholder event",
+        "Channel": "channel form webhooks.json",
+        "Server": true
+    },
+    "TemplateClientEvent": {
+        "Event": "EventNameHere",
+        "Message": "This is a placeholder event",
+        "Channel": "channel form webhooks.json",
+        "Server": false
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "DefaultLogs": {
+        "GlobalBan":"**%s** probeerde verbinding te maken met de server maar is global banned.\n**Ban UUID:** `%s`\n**Ban reden:** `%s`",
+        "NameChange":"Speler **%s** gebruikte de naam **%s**",
+        "NameChangeChat":"%s gebruikte de naam %s",
+        "Left": "**%s** heeft de server verlaten. (Reden: %s)",
+        "Join": "'**%s** is verbinding aan het maken met de server.'",
+        "Shooting": "**%s** schoot met een `%s` `%s keer`",
+        "Explosion": "**%s** heeft een explosie veroorzaakt `%s`",
+        "ResourceStop": "**%s** is gestopt.",
+        "ResourceStart": "**%s** is gestart."
+    },
+
+    "Commands":{
+        "Screenshot": {
+            "Log": "**Screenshot van:** %s (ID: %s)\n**Aangevraag door:** %s (ID: %s)",
+            "Success": "De screenshot van %s is in de discord gepost!",
+            "InvalidId": "De speler id was niet beschikbaar of is ongeldig.",
+            "InvalidPerms": "Je hebt geen rechten om deze actie uit te voeren!"
+        },
+        "LogHistory": {
+            "Success": "Laatste logs voor: %s (%s)",
+            "NoLogs": "Geen logs beschikbaar.",
+            "InvalidId": "De speler id was niet beschikbaar of is ongeldig.",
+            "InvalidPerms": "Je hebt geen rechten om deze actie uit te voeren!"
+        }
+    },
+
+    "Other":{
+        "ForceSteamLog": "Speler **%s** is gekicked om dat er geen steam id beschikbaar was.",
+        "ForceSteam": "Start steam op en verbind opnieuw met de server.",
+        "NoSteamLog": "Speler **%s** heeft geen steam id beschikbaar.",
+        "NoSteam": "is verbonden zonder steam id."
+    },
+
+    "DeathReasons": {
+        "Suicide": "Pleegde Zelfmoord",
+        "Died": "is overleden",
+        "Murdered": "is vermoord",
+        "Torched": "is verbrand",
+        "Knifed": "is neergestoken",
+        "Pistoled": "is neergeschoten",
+        "Riddled": "is neergeschoten",
+        "Rifled": "is neergeschoten",
+        "MachineGunned": "is neergeschoten",
+        "Pulverized": "is neergeschoten",
+        "Sniped": "is neergeschoten",
+        "Obliterated": "is neergeschoten",
+        "Shredded": "is neergeschoten",
+        "Bombed": "is opgeblazen",
+        "MowedOver": "is over reden",
+        "Flattened": "is over reden",
+        "Killed": "is vermoord"
+    },
+
+    "WeaponFired": {
+        "Undefined": "Niet Beschikbaar"
+    },
+
+    "AntiCheat": {
+        "ACConfigEditLog": "Speler **%s** Probeerde de anti cheat config aan te passen.",
+        "ACConfigEdit": "Je bent gekickt van de server.",
+        "ACBlacklistedVehLog": "Speler **%s** probeerde een verboden voertuig te genruiken: `%s`",
+        "ACBlacklistedVehKick": "Je bent gekickt van de server.\nReden: Je probeerde meerdere keren een verboden voertuig te gebruiken.",
+        "BlacklistedObject": "Verboden object verwijdert:`%s`",
+        "BlacklistedKey": "verboden knop ingedrukt:`%s` (%s)'",
+        "BlacklistedCommand":"Verboden command gedetecteerd:`%s`\nSpeler is van de server gekickt.",
+        "BlacklistedCommandKick": "Je bent gekickt van de server."
+    },
+
+    "CommandSuggestions": {
+        "logs": "Zie de laatste 5 logs van de speler.",
+        "screenshot": "Vraag een screenshot van de speler aan.",
+        "playerIdSuggestion": "Server id van de Speler."
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "DefaultLogs": {
+        "GlobalBan":"**%s** intentó conectarse al servidor, pero está en la listga de baneos globales.\n**Ban UUID:** `%s`\n**Motivo:** `%s`",
+        "NameChange":"El jugador **%s** se llamaba **%s**",
+        "NameChangeChat":"%s se llamaba %s",
+        "Left": "**%s** se ha desconectado del servidor. (Motivo: %s)",
+        "Join": "'**%s** se está conectando al servidor.'",
+        "Shooting": "**%s** está disparando una `%s` `x%s`",
+        "Explosion": "**%s** hizo una explosión `%s`",
+        "ResourceStop": "**%s** se ha detenido.",
+        "ResourceStart": "**%s** se ha iniciado."
+    },
+
+    "Commands":{
+        "Screenshot": {
+            "Log": "**Captura de pantalla de:** %s (ID: %s)\n**Solicitada por:** %s (ID: %s)",
+            "Success": "La captura de pantalla de %s ha sido publicada en Discord",
+            "InvalidId": "El ID de jugador dado es inválido o no es un jugador actualmente activo.",
+            "InvalidPerms": "No tienes los permisos para usar este comando"
+        },
+        "LogHistory": {
+            "Success": "Logs recientes de: %s (%s)",
+            "NoLogs": "No hay logs disponibles.",
+            "InvalidId": "El ID de jugador dado es inválido o no es un jugador actualmente activo.",
+            "InvalidPerms": "No tienes los permisos para usar este comando"
+        }
+    },
+
+    "Other":{
+        "ForceSteamLog": "Desconectar jugador **%s** por no tener Steam activo.",
+        "ForceSteam": "Por favor inicie Steam y vuelva a conectarse al servidor.",
+        "NoSteamLog": "El jugador **%s** no tiene Steam activo por lo que no se puede loguear su nombre.",
+        "NoSteam": "se está conectando sin un ID de Steam."
+    },
+
+    "DeathReasons": {
+        "Suicide": "cometió suicidio",
+        "Died": "murió",
+        "Murdered": "asesinado",
+        "Torched": "quemado",
+        "Knifed": "apuñalado",
+        "Pistoled": "de un disparo de pistola",
+        "Riddled": "de un disparo de rifle",
+        "Rifled": "de un disparo de rifle",
+        "MachineGunned": "de disparos de una ametralladora",
+        "Pulverized": "pulverizado",
+        "Sniped": "por un francotirador",
+        "Obliterated": "destruído",
+        "Shredded": "triturado",
+        "Bombed": "por una bomba",
+        "MowedOver": "cortado",
+        "Flattened": "atropellado",
+        "Killed": "asesinado"
+    },
+
+    "WeaponFired": {
+        "Undefined": "sin definir"
+    },
+
+    "AntiCheat": {
+        "ACConfigEditLog": "El jugador **%s** intentó utilizar un archivo de configuración modificado.'",
+        "ACConfigEdit": "Has sido expulsado del servidor",
+        "ACBlacklistedVehLog": "El jugador **%s** intentó utilizar un vehículo de la lista negra: `%s`",
+        "ACBlacklistedVehKick": "Has sido expulsado del servidor.\nMotivo: Intentar utilizar vehículos de la lista negra en múltiples ocasiones.",
+        "BlacklistedObject": "Modelo de lista negra borrado:`%s`",
+        "BlacklistedKey": "Tecla de lista negra utilizada:`%s` (%s)'",
+        "BlacklistedCommand":"Comando en lista negra detectado:`%s`\nEl jugador ha sido expulsado del servidor.",
+        "BlacklistedCommandKick": "Has sido expulsado del servidor."
+    },
+
+    "CommandSuggestions": {
+        "logs": "Ver los 5 logs más recientes de un jugador.",
+        "screenshot": "Solicitar una captura de pantalla del juego de un jugador.",
+        "playerIdSuggestion": "El ID del jugador."
+    }
+}

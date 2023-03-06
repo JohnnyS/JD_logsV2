@@ -1,0 +1,76 @@
+{
+    "DefaultLogs": {
+        "GlobalBan":"**%s** tried to connect to your server but is global banned.\n**Ban UUID:** `%s`\n**Ban reason:** `%s`",
+        "NameChange":"Player **%s** used to be named **%s**",
+        "NameChangeChat":"%s used to be named %s",
+        "Left": "**%s** has left the server. (Reason: %s)",
+        "Join": "'**%s** is connecting to the server.'",
+        "Shooting": "**%s** fired a `%s` `%s times`",
+        "Explosion": "**%s** created a explosion `%s`",
+        "ResourceStop": "**%s** has been stopped.",
+        "ResourceStart": "**%s** has been started."
+    },
+
+    "Commands":{
+        "Screenshot": {
+            "Log": "**Screenshot of:** %s (ID: %s)\n**Requested by:** %s (ID: %s)",
+            "Success": "The screenshot of %s was posted on discord!",
+            "InvalidId": "The player ID provided is invalid or not a active player.",
+            "InvalidPerms": "You don't have permission to use this command!"
+        },
+        "LogHistory": {
+            "Success": "Recent logs for: %s (%s)",
+            "NoLogs": "No logs avalible.",
+            "InvalidId": "The player ID provided is invalid or not a active player.",
+            "InvalidPerms": "You don't have permission to use this command!"
+        }
+    },
+
+    "Other":{
+        "ForceSteamLog": "Disonnected player **%s** for not having steam active.",
+        "ForceSteam": "Please start steam and reconnect to the server.",
+        "NoSteamLog": "Player **%s** does not have steam active and we can't log their name.",
+        "NoSteam": "is connecting wihout a steam id."
+    },
+
+    "DeathReasons": {
+        "Suicide": "committed suicide",
+        "Died": "died",
+        "Murdered": "murdered",
+        "Torched": "torched",
+        "Knifed": "knifed",
+        "Pistoled": "pistoled",
+        "Riddled": "riddled",
+        "Rifled": "rifled",
+        "MachineGunned": "machine gunned",
+        "Pulverized": "pulverized",
+        "Sniped": "sniped",
+        "Obliterated": "obliterated",
+        "Shredded": "shredded",
+        "Bombed": "bombed",
+        "MowedOver": "mowed over",
+        "Flattened": "flattened",
+        "Killed": "killed"
+    },
+
+    "WeaponFired": {
+        "Undefined": "Undefined"
+    },
+
+    "AntiCheat": {
+        "ACConfigEditLog": "Player **%s** tried to use a modified config file.'",
+        "ACConfigEdit": "You have been kicked from the server",
+        "ACBlacklistedVehLog": "Player **%s** tried to use a blacklisted vehicle: `%s`",
+        "ACBlacklistedVehKick": "You have been kicked from the server.\nReason: Trying to use blacklisted vehicles multiple times.",
+        "BlacklistedObject": "Blacklisted model deleted:`%s`",
+        "BlacklistedKey": "Blacklisted key pressed:`%s` (%s)'",
+        "BlacklistedCommand":"Blacklisted command detected:`%s`\nPlayer has been kicked from the server.",
+        "BlacklistedCommandKick": "You have been kicked from the server."
+    },
+
+    "CommandSuggestions": {
+        "logs": "See the recent 5 logs of a player.",
+        "screenshot": "Request a screenshot of a player's game.",
+        "playerIdSuggestion": "The id of the player."
+    }
+}
