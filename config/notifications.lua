@@ -1,6 +1,6 @@
 Notify = {}
 
-Notify.Success = function(target, text)
+Notify.Success = function(target, text) --You should probably change this to what you need it to be
     TriggerClientEvent('ox_lib:notify', target, { 
        type = 'success', 
        position = 'top',
