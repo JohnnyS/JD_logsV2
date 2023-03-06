@@ -40,7 +40,6 @@ Optional:  screenshot-basic (If you want to use screenshot logs or want to use t
 
 ```
 ensure JD_logs
-
 ```
 
 4.  Navigate to the config file:  **config/config.json**.
@@ -143,21 +142,13 @@ Basic Settings:
 # How to log
 
 ```lua
-
 exports.JD_logs:createLog({
-
-EmbedMessage = "EMBED MESSAGE",
-
-player_id = SERVER_ID_PLAYER_ONE,
-
-player_2_id = SERVER_ID_PLAYER_TWO,
-
-channel = "CHANNEL FROM WEBHOOKS CONFIG",
-
-screenshot = true
-
+      EmbedMessage = "EMBED MESSAGE",
+      player_id = SERVER_ID_PLAYER_ONE,
+      player_2_id = SERVER_ID_PLAYER_TWO,
+      channel = "CHANNEL FROM WEBHOOKS CONFIG",
+      screenshot = true
 })
-
 ```
 *If you change the name of the resource make sure you update that on the logs export as well*
   
