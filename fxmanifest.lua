@@ -29,4 +29,3 @@ files {
     'config/config.json',
     'locals/*.json'
 }
-client_script "@TS-TaehcitnA/acloader.lua"
